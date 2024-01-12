@@ -2,7 +2,7 @@
   "name": "ForWork",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/ArtemPrihnich/For-Work",
+  "homepage": "https://ArtemPrihnich.github.io/For-Work/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
