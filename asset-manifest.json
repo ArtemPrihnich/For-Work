@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ArtemPrihnich/For-Work/static/css/main.7acaea2f.css",
+    "main.js": "/ArtemPrihnich/For-Work/static/js/main.0cd2cef9.js",
+    "index.html": "/ArtemPrihnich/For-Work/index.html",
+    "main.7acaea2f.css.map": "/ArtemPrihnich/For-Work/static/css/main.7acaea2f.css.map",
+    "main.0cd2cef9.js.map": "/ArtemPrihnich/For-Work/static/js/main.0cd2cef9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.0cd2cef9.js"
+  ]
+}
