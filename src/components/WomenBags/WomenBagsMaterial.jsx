@@ -2,7 +2,7 @@ import { Box, Flex, Radio, RadioGroup } from '@chakra-ui/react';
 import React, { useEffect } from 'react';
 
 const WomenBagsMaterial = ({ material, setMaterial, setSubType }) => {
-  useEffect(() => setSubType(0), [material]);
+  useEffect(() => setSubType(0), [material, setSubType]);
 
   return (
     <Flex alignItems="center" justifyContent="center" marginTop={10}>
