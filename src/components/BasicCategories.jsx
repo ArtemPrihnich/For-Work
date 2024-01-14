@@ -8,7 +8,7 @@ const BasicCategories = () => {
   const [type, setType] = useState(0);
   const [material, setMaterial] = useState(0);
   const [subType, setSubType] = useState(0);
-  const [result, setResult] = useState('sssdsd');
+  const [result, setResult] = useState('');
 
   useEffect(() => setResult(''), [type, material, subType]);
   const { onCopy, value, setValue, hasCopied } = useClipboard('');

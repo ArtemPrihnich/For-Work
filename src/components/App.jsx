@@ -1,16 +1,12 @@
+import { Box } from '@chakra-ui/react';
+import BasicCategories from './BasicCategories';
+import ImageMaker from './ImageMaker';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
-      Project start
-    </div>
+    <Box>
+      <BasicCategories />
+      <ImageMaker />
+    </Box>
   );
 };
