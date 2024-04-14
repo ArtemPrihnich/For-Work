@@ -7,7 +7,8 @@ const NumbersCutter = () => {
 
   useEffect(() => {
     if (numbers !== '') {
-      let buff = numbers.split('грн.');
+      let text = numbers.replaceAll('.', ',');
+      let buff = text.split('грн,');
       buff.pop();
       setNumbersList(buff);
     }
