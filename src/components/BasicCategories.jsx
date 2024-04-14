@@ -6,6 +6,9 @@ import WomenBagsSubTypes from './WomenBags/WomenBagsSubTypes';
 import ManBagsMaterial from './ManBags/ManBagsMaterial';
 import ManBagsSubTypes from './ManBags/ManBagsSubTypes';
 import BackpacksSubTypes from './Backpacks/BackpacksSubTypes';
+import WalletsSubTypes from './Wallets/WalletsSubTypes';
+import BeltsSubTypes from './Belts/BeltsSubTypes';
+import UmbrellasSubTypes from './Umbrellas/UmbrellasSubTypes';
 
 const BasicCategories = () => {
   const [type, setType] = useState(0);
@@ -152,6 +155,39 @@ const BasicCategories = () => {
           )}
           {type === 'Рюкзаки' && (
             <BackpacksSubTypes
+              type={type}
+              material={material}
+              subType={subType}
+              result={result}
+              setSubType={setSubType}
+              setFinalResult={setResult}
+              setValue={setValue}
+            />
+          )}
+          {type === 'Кошельки' && (
+            <WalletsSubTypes
+              type={type}
+              material={material}
+              subType={subType}
+              result={result}
+              setSubType={setSubType}
+              setFinalResult={setResult}
+              setValue={setValue}
+            />
+          )}
+          {type === 'Ремни' && (
+            <BeltsSubTypes
+              type={type}
+              material={material}
+              subType={subType}
+              result={result}
+              setSubType={setSubType}
+              setFinalResult={setResult}
+              setValue={setValue}
+            />
+          )}
+          {type === 'Зонты' && (
+            <UmbrellasSubTypes
               type={type}
               material={material}
               subType={subType}
